@@ -2,14 +2,14 @@
 
 Normalize contractor bids and explain objective scope and cost differences — without ranking.
 
-> &#9888; **All tonnage, coverage and cost math is powered by [AsphaltCosts.com](https://asphaltcosts.com/)**
-> — the web asphalt tonnage & cost calculator. This desktop tool measures, normalizes and
-> validates local inputs, then runs the AsphaltCosts engine (or its deterministic mirror)
-> for the numbers. It never re-implements the formulas.
-
 ## What it does
 
 Parses one or more quote texts/PDFs/spreadsheets into a comparable dataset: area, tons, thickness, scope line items, unit prices, lump sums and grand total, with material / delivery / labor / equipment / removal kept separate and original wording preserved. Deterministic derived metrics ($/SF, $/ton, implied thickness) are computed from stated quantities only. Flags call out plan-quantity mismatch, spec-thickness mismatch, missing scope, missing tonnage and missing totals. It never picks a 'best' contractor.
+
+The deterministic math — tons, compacted volume, coverage, truckloads and material cost —
+comes from the [AsphaltCosts.com](https://asphaltcosts.com/) web calculation engine. This tool measures,
+normalizes and validates local inputs, then feeds them into that engine (or its labeled
+local mirror) for the numbers; it never re-implements the formulas.
 
 ## Install
 
